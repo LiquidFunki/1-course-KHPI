@@ -1,9 +1,8 @@
-#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 #define SIZE 3
 
-int mas_func(int massive[SIZE][SIZE]);
+void mas_func(int massive[SIZE][SIZE]);
 
 int main()
 {
@@ -15,13 +14,13 @@ int main()
                 massive[i][j] = rand() % 10;
             }
         }
-    int result = mas_func(massive);
+    mas_func(massive);
     return 0;
 }
 
 
 
-int mas_func(int massive[SIZE][SIZE])
+void mas_func(int massive[SIZE][SIZE])
 {
     int new_massive[SIZE][SIZE] = {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
 
@@ -35,7 +34,7 @@ int mas_func(int massive[SIZE][SIZE])
               }
         }
     }
-    return new_massive;
+    return;
 }
 
 
