@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/git/lab12/src/task1/lib.c
+lib.h
+D:/git/lab12/src/task1/lib.h
+
+D:/git/lab12/src/task1/lib.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+D:/git/lab12/src/task1/main.c
+lib.h
+D:/git/lab12/src/task1/lib.h
+
