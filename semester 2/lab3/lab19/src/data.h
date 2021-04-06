@@ -20,6 +20,7 @@ struct books
     char publishing_house[15];
     enum cover cover;
 };
+
 void ReadFromFile(struct books **memory_for_books);
 
 void GenerateRandomPages(struct books **memory_for_books);

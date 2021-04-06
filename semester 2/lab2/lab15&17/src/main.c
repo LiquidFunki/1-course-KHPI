@@ -1,8 +1,10 @@
 #include "lib.h"
 
-int main(){
+int main()
+{
     struct books ** memory_for_books = malloc(NUM_OF_BOOKS * sizeof(struct books* ));
-    for (int i = 0; i < NUM_OF_BOOKS; i++) {
+    for (int i = 0; i < NUM_OF_BOOKS; i++)
+    {
         *(memory_for_books + i) = malloc(sizeof(struct books));
     }
 
@@ -21,7 +23,8 @@ int main(){
 
     PutInFile(memory_for_books);
 
-    for (int i = 0; i < NUM_OF_BOOKS; i++){
+    for (int i = 0; i < NUM_OF_BOOKS; i++)
+    {
         free(*(memory_for_books + i));
     }
 }

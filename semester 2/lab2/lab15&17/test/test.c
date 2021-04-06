@@ -1,8 +1,10 @@
-#include <../src/lib.h>
+#include "lib.h"
 
-bool testSortStructure(){
+bool testSortStructure()
+{
     struct books ** memory_for_books = malloc(3 * sizeof (struct books));
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 3; i++)
+        {
             *(memory_for_books + i) = malloc(sizeof(struct books));
         }
     (*(memory_for_books))->digital_version = 1;
@@ -18,13 +20,14 @@ bool testSortStructure(){
     (*(memory_for_books + 1))->cover = SOFT;
 
     (*(memory_for_books + 2))->digital_version = 1;
-    strcpy((*(memory_for_books + 2))->name, "SNAIL");
+    strcpy((*(memory_for_books + 2))->name, "Snail");
     (*(memory_for_books + 2))->pages = 72;
     strcpy((*(memory_for_books + 2))->publishing_house, "Family");
     (*(memory_for_books + 2))->cover = SOFT;
 
     struct books ** expected_digital_version = malloc( 3 * sizeof(struct books));
-    for (int i = 0; i < 3; i++){
+    for (int i = 0; i < 3; i++)
+    {
         *(expected_digital_version + i) = malloc(sizeof(struct books));
     }
 
@@ -35,7 +38,7 @@ bool testSortStructure(){
     (*(expected_digital_version))->cover = HARD;
 
     (*(expected_digital_version + 1))->digital_version = 1;
-    strcpy((*(expected_digital_version + 1))->name, "SNAIL");
+    strcpy((*(expected_digital_version + 1))->name, "Snail");
     (*(expected_digital_version + 1))->pages = 72;
     strcpy((*(expected_digital_version + 1))->publishing_house, "Family");
     (*(expected_digital_version + 1))->cover = SOFT;
@@ -47,12 +50,13 @@ bool testSortStructure(){
     (*(expected_digital_version + 2))->cover = SOFT;
 
     struct books ** expected_name = malloc( 3 * sizeof(struct books));
-    for (int i = 0; i < 3; i++){
+    for (int i = 0; i < 3; i++)
+    {
         *(expected_name + i) = malloc(sizeof(struct books));
     }
 
     (*(expected_name))->digital_version = 1;
-    strcpy((*(expected_name))->name, "SNAIL");
+    strcpy((*(expected_name))->name, "Snail");
     (*(expected_name))->pages = 72;
     strcpy((*(expected_name))->publishing_house, "Family");
     (*(expected_name))->cover = SOFT;
@@ -70,7 +74,8 @@ bool testSortStructure(){
     (*(expected_name + 2))->cover = SOFT;
 
     struct books ** expected_pages = malloc( 3 * sizeof(struct books));
-    for (int i = 0; i < 3; i++){
+    for (int i = 0; i < 3; i++)
+    {
         *(expected_pages + i) = malloc(sizeof(struct books));
     }
 
@@ -87,13 +92,14 @@ bool testSortStructure(){
     (*(expected_pages + 2))->cover = SOFT;
 
     (*(expected_pages + 2))->digital_version = 1;
-    strcpy((*(expected_pages + 2))->name, "SNAIL");
+    strcpy((*(expected_pages + 2))->name, "Snail");
     (*(expected_pages + 2))->pages = 72;
     strcpy((*(expected_pages + 2))->publishing_house, "Family");
     (*(expected_pages + 2))->cover = SOFT;
 
     struct books ** expected_publishing_house = malloc( 3 * sizeof(struct books));
-    for (int i = 0; i < 3; i++){
+    for (int i = 0; i < 3; i++)
+    {
         *(expected_publishing_house + i) = malloc(sizeof(struct books));
     }
 
@@ -104,7 +110,7 @@ bool testSortStructure(){
     (*(expected_publishing_house))->cover = HARD;
 
     (*(expected_publishing_house + 1))->digital_version = 1;
-    strcpy((*(expected_publishing_house + 1))->name, "SNAIL");
+    strcpy((*(expected_publishing_house + 1))->name, "Snail");
     (*(expected_publishing_house + 1))->pages = 72;
     strcpy((*(expected_publishing_house + 1))->publishing_house, "Family");
     (*(expected_publishing_house + 1))->cover = SOFT;
@@ -127,7 +133,7 @@ bool testSortStructure(){
     (*(expected_cover))->cover = SOFT;
 
     (*(expected_cover + 1))->digital_version = 1;
-    strcpy((*(expected_cover + 1))->name, "SNAIL");
+    strcpy((*(expected_cover + 1))->name, "Snail");
     (*(expected_cover + 1))->pages = 72;
     strcpy((*(expected_cover + 1))->publishing_house, "Family");
     (*(expected_cover + 1))->cover = SOFT;
@@ -147,81 +153,104 @@ bool testSortStructure(){
     bool result = true;
 
     Sort(memory_for_books, option1, 3);
-    for( int i = 0; i < 3; i++){
-        if((*(memory_for_books + i))->digital_version == (*(expected_digital_version + i))->digital_version){
-            result &= true;
+    for( int i = 0; i < 3; i++)
+    {
+        if((*(memory_for_books + i))->digital_version == (*(expected_digital_version + i))->digital_version)
+        {
+            result = true;
         }
-        else{
-            result &= false;
+        else
+        {
+            result = false;
         }
     }
 
     Sort(memory_for_books, option2, 3);
-    for( int i = 0; i < 3; i++){
-        if((*(memory_for_books + i))->name == (*(expected_name + i))->name){
+    for( int i = 0; i < 3; i++)
+    {
+        if(strcmp((*(memory_for_books + i))->name, (*(expected_name + i))->name) == 0)
+        {
             result &= true;
         }
-        else{
+        else
+        {
             result &= false;
         }
     }
 
     Sort(memory_for_books, option3, 3);
-    for( int i = 0; i < 3; i++){
-        if((*(memory_for_books + i))->pages == (*(expected_pages + i))->pages){
+    for( int i = 0; i < 3; i++)
+    {
+        if((*(memory_for_books + i))->pages == (*(expected_pages + i))->pages)
+        {
             result &= true;
         }
-        else{
+        else
+        {
             result &= false;
         }
     }
 
     Sort(memory_for_books, option4, 3);
-    for( int i = 0; i < 3; i++){
-        if((*(memory_for_books + i))->publishing_house == (*(expected_publishing_house + i))->publishing_house){
+    for( int i = 0; i < 3; i++)
+    {
+        if(strcmp((*(memory_for_books + i))->publishing_house, (*(expected_publishing_house + i))->publishing_house) == 0)
+        {
             result &= true;
         }
-        else{
+        else
+        {
             result &= false;
         }
     }
 
     Sort(memory_for_books, option5, 3);
-    for( int i = 0; i < 3; i++){
-        if((*(memory_for_books + i))->cover == (*(expected_cover + i))->cover){
+    for( int i = 0; i < 3; i++)
+    {
+        if((*(memory_for_books + i))->cover == (*(expected_cover + i))->cover)
+        {
             result &= true;
         }
-        else{
+        else
+        {
             result &= false;
         }
     }
 
-    for (int  i = 0; i < 3; i++){
+    for (int  i = 0; i < 3; i++)
+    {
         free(*(memory_for_books + i));
     }
-    for (int  i = 0; i < 3; i++){
+    for (int  i = 0; i < 3; i++)
+    {
         free(*(expected_digital_version + i));
     }
-    for (int  i = 0; i < 3; i++){
+    for (int  i = 0; i < 3; i++)
+    {
         free(*(expected_name + i));
     }
-    for (int  i = 0; i < 3; i++){
+    for (int  i = 0; i < 3; i++)
+    {
         free(*(expected_pages + i));
     }
-    for (int  i = 0; i < 3; i++){
+    for (int  i = 0; i < 3; i++)
+    {
         free(*(expected_publishing_house + i));
     }
-    for (int  i = 0; i < 3; i++){
+    for (int  i = 0; i < 3; i++)
+    {
         free(*(expected_cover + i));
     }
 
     return result;
 
 }
-bool testFindPublishingHouse() {
+bool testFindPublishingHouse()
+{
 
     struct books ** memory_for_books = malloc(3 * sizeof (struct books));
-    for(int i = 0; i < 3; i++){
+    for(int i = 0; i < 3; i++)
+    {
         *(memory_for_books + i) = malloc(sizeof(struct books));
     }
 
@@ -238,7 +267,7 @@ bool testFindPublishingHouse() {
     (*(memory_for_books + 1))->cover = SOFT;
 
     (*(memory_for_books + 2))->digital_version = 1;
-    strcpy((*(memory_for_books + 2))->name, "SNAIL");
+    strcpy((*(memory_for_books + 2))->name, "Snail");
     (*(memory_for_books + 2))->pages = 72;
     strcpy((*(memory_for_books + 2))->publishing_house, "Family");
     (*(memory_for_books + 2))->cover = SOFT;
@@ -253,10 +282,12 @@ bool testFindPublishingHouse() {
 
     struct books *true_struct = FindPublishingHouse(memory_for_books, 3);
 
+    bool result;
+    result = true;
     if (strcmp(true_struct->publishing_house, expected->publishing_house) == 0) {
-        result = true;
+        result &= true;
     } else {
-        result = false;
+        result &= false;
     }
 
     for (int  i = 0; i < 3; i++){
@@ -264,7 +295,7 @@ bool testFindPublishingHouse() {
     }
 
     free(expected);
-    free(true_struct);
+    //free(true_struct);
 
     return result;
 }
@@ -272,9 +303,9 @@ bool testFindPublishingHouse() {
 int main()
 {
     bool test = true;
-    test &= testSortStructure();
-    test &= testFindPublishingHouse();
-    if (test){
+    test = testSortStructure();
+    test = testFindPublishingHouse();
+    if (test == true){
         printf("All tests got success\n");
     }else{
         printf("All or some of tests got failed\n");

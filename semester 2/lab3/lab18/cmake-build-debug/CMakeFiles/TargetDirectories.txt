@@ -1,0 +1,4 @@
+/cygdrive/d/git2/semester 2/lab3/lab18/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/git2/semester 2/lab3/lab18/cmake-build-debug/CMakeFiles/lab18_test.dir
+/cygdrive/d/git2/semester 2/lab3/lab18/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/git2/semester 2/lab3/lab18/cmake-build-debug/CMakeFiles/lab18_main.dir
