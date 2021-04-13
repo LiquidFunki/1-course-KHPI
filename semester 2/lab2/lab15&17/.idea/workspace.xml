@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="lab15_17" targetName="lab15_17_test" />
+      <config projectName="lab15_17" targetName="lab15_17_main" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e393862e-eddd-4165-94a2-9840d50841c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/includes_C.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/includes_C.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab15_17_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab15_17.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lab15_17.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab15_17_main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lab15_17_main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab15_17_test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lab15_17_test.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/3.20.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/3.20.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/3.20.0/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/3.20.0/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_main.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_main.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_main.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_main.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_main.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_main.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_main.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_main.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_main.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_test.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_test.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_test.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_test.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_test.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_test.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_test.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_test.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_19_test.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_main.dir/src/lib.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_main.dir/src/lib.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_test.dir/src/lib.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_test.dir/src/lib.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_test.dir/test/test.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/CMakeFiles/lab18_test.dir/test/test.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/lab18_main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/lab18_main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/lab18_test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/cmake-build-debug/lab18_test.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/src/lib.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/src/lib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab18/test/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab18/test/test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/includes_C.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/includes_C.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/lab19_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/lab18_19.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/lab18_19.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/lab19_main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/cmake-build-debug/lab19_main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/src/data.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/src/data.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/src/data.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/src/data.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/src/list.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/src/list.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/src/list.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/src/list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/lab19/test/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/lab19/test/test.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1qQmStpFKuBfBHS4pwP7rIeVZYC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunManager" selected="CMake Application.lab15_17_main">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab15_17_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab15_17" TARGET_NAME="lab15_17_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab15_17" RUN_TARGET_NAME="lab15_17_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab15_17_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab15_17" TARGET_NAME="lab15_17_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab15_17" RUN_TARGET_NAME="lab15_17_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.lab15_17_main" />
+      <item itemvalue="CMake Application.lab15_17_test" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e393862e-eddd-4165-94a2-9840d50841c8" name="Default Changelist" comment="" />
+      <created>1617020190934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617020190934</updated>
+      <workItem from="1617020192294" duration="39000" />
+      <workItem from="1617020515969" duration="245000" />
+      <workItem from="1617020781367" duration="464000" />
+      <workItem from="1617021795566" duration="2647000" />
+      <workItem from="1617027799809" duration="15000" />
+      <workItem from="1617564035376" duration="42000" />
+      <workItem from="1617687750371" duration="96000" />
+      <workItem from="1617687908095" duration="543000" />
+      <workItem from="1618047499576" duration="503000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
