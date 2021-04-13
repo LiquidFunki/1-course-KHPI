@@ -1,1 +1,0 @@
-CMakeLists.txt not found in D:\git2\semester 2\lab2\lab15&17\test Select CMakeLists.txt
