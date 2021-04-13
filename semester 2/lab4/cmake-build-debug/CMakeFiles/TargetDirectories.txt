@@ -1,0 +1,4 @@
+D:/git2/semester 2/lab4/cmake-build-debug/CMakeFiles/lab20_main.dir
+D:/git2/semester 2/lab4/cmake-build-debug/CMakeFiles/lab20_test.dir
+D:/git2/semester 2/lab4/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/git2/semester 2/lab4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

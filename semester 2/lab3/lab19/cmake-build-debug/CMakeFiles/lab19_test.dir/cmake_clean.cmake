@@ -1,9 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab19_test.dir/src/data.c.obj"
-  "CMakeFiles/lab19_test.dir/src/list.c.obj"
-  "CMakeFiles/lab19_test.dir/test/test.c.obj"
+  "CMakeFiles/lab19_test.dir/src/data.c.o"
+  "CMakeFiles/lab19_test.dir/src/data.c.o.d"
+  "CMakeFiles/lab19_test.dir/src/list.c.o"
+  "CMakeFiles/lab19_test.dir/src/list.c.o.d"
+  "CMakeFiles/lab19_test.dir/test/test.c.o"
+  "CMakeFiles/lab19_test.dir/test/test.c.o.d"
   "lab19_test.exe"
-  "lab19_test.exe.manifest"
   "lab19_test.pdb"
   "liblab19_test.dll.a"
 )

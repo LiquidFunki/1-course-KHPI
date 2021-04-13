@@ -219,12 +219,6 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc.exe
 ProcessorCount_cmd_sysctl:FILEPATH=ProcessorCount_cmd_sysctl-NOTFOUND
 
 //Value Computed by CMake
-lab18_19_BINARY_DIR:STATIC=/cygdrive/d/git2/semester 2/lab3/lab18/cmake-build-debug
-
-//Value Computed by CMake
-lab18_19_SOURCE_DIR:STATIC=/cygdrive/d/git2/semester 2/lab3/lab18
-
-//Value Computed by CMake
 lab18_BINARY_DIR:STATIC=/cygdrive/d/git2/semester 2/lab3/lab18/cmake-build-debug
 
 //Value Computed by CMake

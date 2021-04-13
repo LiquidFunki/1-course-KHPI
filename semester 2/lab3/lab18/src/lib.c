@@ -6,7 +6,7 @@ char * insert_arr(char * arr1, char * arrCenter, size_t index)
             memcpy(new_array, arr1, index * sizeof(char));
             memcpy(new_array + index, arrCenter, strlen(arrCenter) * sizeof(char));
             memcpy(new_array + index + strlen(arrCenter), arr1 + index, strlen(arr1) - index);
-            //*(new_array + strlen(new_array)) = '\0';
+            *(new_array + strlen(arr1) + strlen(arrCenter)) = '\0';
     return new_array;
 
 }
@@ -68,9 +68,9 @@ struct books** InsertStruct (struct books **memory_for_books, struct books *inse
     }
     else
     {
-        memcpy(*result, *memory_for_books, sizeof (struct books) * (index));
+        memcpy(*result, *memory_for_books, sizeof (struct books) * (index + 1));
         memcpy(*(result + index), insert, sizeof (struct books));
-        memcpy(*(result + index + 1), *(memory_for_books + index), sizeof (struct books) * (NUM_OF_BOOKS - index + 1));
+        memcpy(*(result + index + 1), *(memory_for_books + index), sizeof (struct books) * (NUM_OF_BOOKS - index + 1) + 1);
     }
     printf("\nResult:\n\n");
     PrintInConsole(result, NUM_OF_BOOKS + 1);

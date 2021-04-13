@@ -1,0 +1,6 @@
+1 Potter 150 Ranok 0
+1 Stranger 164 Family 1
+0 It 170 Family 1
+0 Bukvar 143 Shkola 0
+1 Chess 135 Ranok 0
+1 Snail 151 Ranok 1

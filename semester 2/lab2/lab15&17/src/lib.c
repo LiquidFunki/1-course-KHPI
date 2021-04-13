@@ -40,7 +40,7 @@ struct books* FindPublishingHouse(struct books **memory_for_books, int size)
                 printf("Does this book have digital version?: Yes\n");
             } else
               {
-                printf("Does this book have digital version?: NO\n");\
+                printf("Does this book have digital version?: NO\n");
               }
             printf("Name: %s\n", product->name);
             printf("Pages: %d \n", product->pages);

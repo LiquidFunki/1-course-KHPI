@@ -1,0 +1,36 @@
+Availability of a digital version: Yes
+name: Potter
+pages: 150
+Publishing house: Ranok
+Cover of the book: hard
+
+Availability of a digital version: Yes
+name: Stranger
+pages: 164
+Publishing house: Family
+Cover of the book: soft
+
+Availability of a digital version: NO
+name: It
+pages: 170
+Publishing house: Family
+Cover of the book: soft
+
+Availability of a digital version: NO
+name: Bukvar
+pages: 143
+Publishing house: Shkola
+Cover of the book: hard
+
+Availability of a digital version: Yes
+name: Chess
+pages: 135
+Publishing house: Ranok
+Cover of the book: hard
+
+Availability of a digital version: Yes
+name: Snail
+pages: 151
+Publishing house: Ranok
+Cover of the book: soft
+

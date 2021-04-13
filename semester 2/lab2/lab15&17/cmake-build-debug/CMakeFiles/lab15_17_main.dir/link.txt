@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\lab15_17_main.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\lab15_17_main.dir/objects.a @CMakeFiles\lab15_17_main.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\lab15_17_main.dir/objects.a -Wl,--no-whole-archive  -o lab15_17_main.exe -Wl,--out-implib,liblab15_17_main.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lab15_17_main.dir\linklibs.rsp
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/lab15_17_main.dir/src/main.c.o CMakeFiles/lab15_17_main.dir/src/lib.c.o -o lab15_17_main.exe -Wl,--out-implib,liblab15_17_main.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
