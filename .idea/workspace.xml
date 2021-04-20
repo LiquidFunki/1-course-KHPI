@@ -6,80 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f4e356-1f99-49cc-8a77-daa485404d87" name="Default Changelist" comment="rework">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/.idea/lab15&amp;17.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/books.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/3.20.0/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/3.20.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/3.20.0/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/3.20.0/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/3.20.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/3.20.0/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_main.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_main.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_main.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_main.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_main.dir/compiler_depend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_main.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_main.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_main.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_main.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_main.dir/src/lib.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_main.dir/src/lib.c.o.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_main.dir/src/main.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_main.dir/src/main.c.o.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_test.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_test.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_test.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_test.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_test.dir/compiler_depend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_test.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_test.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_test.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/lab15_17_test.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/lab15_17.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/lab15_17.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/lab15_17_main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/lab15_17_test.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/cmake-build-debug/lab15_17_test.exe.stackdump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/src/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/src/.idea/src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/src/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/src/lib.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/src/lib.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/src/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/test/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/test/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/test/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/test/.idea/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/test/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/test/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/test/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester 2/lab2/lab15&amp;17/test/test.c" beforeDir="false" />
-    </list>
+    <list default="true" id="84f4e356-1f99-49cc-8a77-daa485404d87" name="Default Changelist" comment="reports" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/semester 2/lab3/lab18" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
@@ -124,6 +51,7 @@
       <workItem from="1618292449687" duration="472000" />
       <workItem from="1618292930684" duration="255000" />
       <workItem from="1618293746372" duration="69000" />
+      <workItem from="1618898562770" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="rework">
       <created>1616780417491</created>
@@ -153,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618292976903</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="reports">
+      <created>1618898737953</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618898737953</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added lab 19 &amp; 20" />
     <MESSAGE value="rework" />
-    <option name="LAST_COMMIT_MESSAGE" value="rework" />
+    <MESSAGE value="reports" />
+    <option name="LAST_COMMIT_MESSAGE" value="reports" />
   </component>
 </project>
