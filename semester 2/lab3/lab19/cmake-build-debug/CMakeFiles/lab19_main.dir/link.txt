@@ -1,1 +1,0 @@
-/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/lab19_main.dir/src/main.c.o CMakeFiles/lab19_main.dir/src/list.c.o CMakeFiles/lab19_main.dir/src/data.c.o -o lab19_main.exe -Wl,--out-implib,liblab19_main.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
