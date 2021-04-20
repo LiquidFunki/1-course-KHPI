@@ -44,6 +44,7 @@ bool test_insert_struct()
 {
     bool result = true;
 
+
     struct books * insert = malloc(sizeof (struct books));
 
     insert->digital_version = 1;
@@ -61,37 +62,37 @@ bool test_insert_struct()
     (*(books_for_test))->digital_version = 1;
     strcpy((*(books_for_test))->name, "Potter");
     (*(books_for_test))->pages = 145;
-    stpcpy((*(books_for_test))->publishing_house, "Ranok");
+    strcpy((*(books_for_test))->publishing_house, "Ranok");
     (*(books_for_test))->cover = HARD;
 
     (*(books_for_test + 1))->digital_version = 1;
     strcpy((*(books_for_test + 1))->name, "Stranger");
     (*(books_for_test + 1))->pages = 214;
-    stpcpy((*(books_for_test + 1))->publishing_house, "Family");
+    strcpy((*(books_for_test + 1))->publishing_house, "Family");
     (*(books_for_test + 1))->cover = SOFT;
 
     (*(books_for_test + 2))->digital_version = 0;
     strcpy((*(books_for_test + 2))->name, "It");
     (*(books_for_test + 2))->pages = 400;
-    stpcpy((*(books_for_test + 2))->publishing_house, "Family");
+    strcpy((*(books_for_test + 2))->publishing_house, "Family");
     (*(books_for_test + 2))->cover = SOFT;
 
     (*(books_for_test + 3))->digital_version = 0;
     strcpy((*(books_for_test + 3))->name, "Bukvar");
     (*(books_for_test + 3))->pages = 125;
-    stpcpy((*(books_for_test + 3))->publishing_house, "Shkola");
+    strcpy((*(books_for_test + 3))->publishing_house, "Shkola");
     (*(books_for_test + 3))->cover = HARD;
 
     (*(books_for_test + 4))->digital_version = 1;
     strcpy((*(books_for_test + 4))->name, "Chess");
     (*(books_for_test + 4))->pages = 145;
-    stpcpy((*(books_for_test + 4))->publishing_house, "Ranok");
+    strcpy((*(books_for_test + 4))->publishing_house, "Ranok");
     (*(books_for_test + 4))->cover = HARD;
 
     (*(books_for_test + 5))->digital_version = 1;
     strcpy((*(books_for_test + 5))->name, "Snail");
     (*(books_for_test + 5))->pages = 107;
-    stpcpy((*(books_for_test + 5))->publishing_house, "Ranok");
+    strcpy((*(books_for_test + 5))->publishing_house, "Ranok");
     (*(books_for_test + 5))->cover = SOFT;
 
     struct books ** expected_test = malloc((NUM_OF_BOOKS + 1) * sizeof (struct books));
@@ -102,43 +103,43 @@ bool test_insert_struct()
     (*(expected_test))->digital_version = 1;
     strcpy((*(expected_test))->name, "Potter");
     (*(expected_test))->pages = 145;
-    stpcpy((*(expected_test))->publishing_house, "Ranok");
+    strcpy((*(expected_test))->publishing_house, "Ranok");
     (*(expected_test))->cover = HARD;
 
     (*(expected_test + 1))->digital_version = 1;
     strcpy((*(expected_test + 1))->name, "Stranger");
     (*(expected_test + 1))->pages = 214;
-    stpcpy((*(expected_test + 1))->publishing_house, "Family");
+    strcpy((*(expected_test + 1))->publishing_house, "Family");
     (*(expected_test + 1))->cover = SOFT;
 
     (*(expected_test + 2))->digital_version = 1;
     strcpy((*(expected_test + 2))->name, "Zelda");
     (*(expected_test + 2))->pages = 145;
-    stpcpy((*(expected_test + 2))->publishing_house, "Ranok");
+    strcpy((*(expected_test + 2))->publishing_house, "Ranok");
     (*(expected_test + 2))->cover = SOFT;
 
     (*(expected_test + 3))->digital_version = 0;
     strcpy((*(expected_test + 3))->name, "It");
     (*(expected_test + 3))->pages = 400;
-    stpcpy((*(expected_test + 3))->publishing_house, "Family");
+    strcpy((*(expected_test + 3))->publishing_house, "Family");
     (*(expected_test + 3))->cover = SOFT;
 
     (*(expected_test + 4))->digital_version = 0;
     strcpy((*(expected_test + 4))->name, "Bukvar");
     (*(expected_test + 4))->pages = 125;
-    stpcpy((*(expected_test + 4))->publishing_house, "Shkola");
+    strcpy((*(expected_test + 4))->publishing_house, "Shkola");
     (*(expected_test + 4))->cover = HARD;
 
     (*(expected_test + 5))->digital_version = 1;
     strcpy((*(expected_test + 5))->name, "Chess");
     (*(expected_test + 5))->pages = 145;
-    stpcpy((*(expected_test + 5))->publishing_house, "Ranok");
+    strcpy((*(expected_test + 5))->publishing_house, "Ranok");
     (*(expected_test + 5))->cover = HARD;
 
     (*(expected_test + 6))->digital_version = 1;
     strcpy((*(expected_test + 6))->name, "Snail");
     (*(expected_test + 6))->pages = 107;
-    stpcpy((*(expected_test + 6))->publishing_house, "Ranok");
+    strcpy((*(expected_test + 6))->publishing_house, "Ranok");
     (*(expected_test + 6))->cover = HARD;
 
     printf("Expected result:\n\n");
@@ -342,6 +343,7 @@ int main(){
     }
     printf("Delete struct test\n\n");
     result &= test_delete_struct();
+
     if (result == true){
         printf("Test result: succeed\n");
     }else{

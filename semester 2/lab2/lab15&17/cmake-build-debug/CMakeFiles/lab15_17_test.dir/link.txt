@@ -1,1 +1,0 @@
-/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/lab15_17_test.dir/test/test.c.o CMakeFiles/lab15_17_test.dir/src/lib.c.o -o lab15_17_test.exe -Wl,--out-implib,liblab15_17_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

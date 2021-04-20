@@ -40,7 +40,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.20.0/Modules/CMakeTestCCompiler.cmake"
   "/usr/share/cmake-3.20.0/Modules/CMakeTestCompilerCommon.cmake"
   "/usr/share/cmake-3.20.0/Modules/CMakeTestRCCompiler.cmake"
-  "/usr/share/cmake-3.20.0/Modules/CMakeUnixFindMake.cmake"
   "/usr/share/cmake-3.20.0/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/usr/share/cmake-3.20.0/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
   "/usr/share/cmake-3.20.0/Modules/Compiler/ARMClang-DetermineCompiler.cmake"

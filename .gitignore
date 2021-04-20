@@ -1,10 +1,7 @@
 dist/
 
 .Doxyfile
-/lab12/.idea/
-/lab12/task1/.idea/
-/lab12/task1/cmake-build-debug/
-/lab12/task2/.idea/
-/lab12/task2/cmake-build-debug/
-/lab12/task3/.idea/
-/lab12/task3/cmake-build-debug/
+src/.idea/
+cmake-build-debug/
+CMakeLists.txt
+.idea/
