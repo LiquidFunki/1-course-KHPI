@@ -1,4 +1,4 @@
-#include "../../Static_library/src/entity.h"
+#include "entity.h"
 
 int main()
 {

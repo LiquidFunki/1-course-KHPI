@@ -1,0 +1,6 @@
+1 Potter 150 license Ranok 1
+0 Stranger 164 license Family 1
+1 It 170 license Family 1
+1 Bukvar 143 license Shkola 0
+0 Chess 135 license Ranok 0
+1 Snail 151 license Ranok 1

@@ -1,4 +1,4 @@
-#include "../../Static_library/src/entity.h"
+#include "list.h"
 
 int main()
 {
@@ -17,7 +17,8 @@ int main()
     }
 
     struct List *list = NewList();
-    ReadListFromFile(list);
+    ReadList(list);
+    PrintFieldWithTwoWords(list);
     for (int i = 0; i < 44; ++i)
     {
         int marker;
