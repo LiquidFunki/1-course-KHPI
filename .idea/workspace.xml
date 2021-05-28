@@ -32,13 +32,6 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +49,8 @@
       <workItem from="1618898562770" duration="414000" />
       <workItem from="1622187833067" duration="151000" />
       <workItem from="1622188012631" duration="25000" />
+      <workItem from="1622189941065" duration="57000" />
+      <workItem from="1622192617566" duration="42000" />
     </task>
     <task id="LOCAL-00001" summary="rework">
       <created>1616780417491</created>
@@ -106,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622187920920</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added lab6 report + assests for lab 7 report">
+      <created>1622189990977</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622189990977</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added lab7 report + assets for lab 8 report">
+      <created>1622192650170</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622192650170</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +138,8 @@
     <MESSAGE value="rework" />
     <MESSAGE value="reports" />
     <MESSAGE value="added labs(with no reports)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added labs(with no reports)" />
+    <MESSAGE value="added lab6 report + assests for lab 7 report" />
+    <MESSAGE value="added lab7 report + assets for lab 8 report" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lab7 report + assets for lab 8 report" />
   </component>
 </project>
