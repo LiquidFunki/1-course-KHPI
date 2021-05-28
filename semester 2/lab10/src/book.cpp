@@ -31,11 +31,11 @@ void PublishingHouse::printpb() {
 //Book
 
 //Book::Book() : digital_version(false), title(), pages(0), publishingHouse(), cover(HARD) { cout << "Default constructor" << endl; };
-Book::Book() : digital_version(false), title(), pages(0), publishingHouse(), cover(HARD) { };
+Book::Book() : digital_version(0), title(), pages(0), publishingHouse(), cover(HARD) { };
 
 /**Book::Book(bool digital_version, string title, int pages, const PublishingHouse& publishingHouse, enum Cover cover) :
         digital_version(digital_version), title(title), pages(pages), publishingHouse(publishingHouse), cover(cover) { cout << "Parametric contructor" << endl; };*/
-Book::Book(bool digital_version, string title, int pages, const PublishingHouse& publishingHouse, enum Cover cover) :
+Book::Book(int digital_version, string title, int pages, const PublishingHouse& publishingHouse, enum Cover cover) :
         digital_version(digital_version), title(title), pages(pages), publishingHouse(publishingHouse), cover(cover) { };
 
 /**Book::Book(const Book &temp) : digital_version(temp.digital_version), title(temp.title), pages(temp.pages),
@@ -46,11 +46,13 @@ Book::Book(const Book &temp) : digital_version(temp.digital_version), title(temp
 //Book::~Book() { cout << "default destructor" << endl };
 Book::~Book() { };
 
-bool Book::get_digital_version(){ return this->digital_version; };
+int Book::get_digital_version() const{
+    return this->digital_version;
+}
 
 string Book::get_title(){ return this->title; };
 
-int Book::get_pages(){ return this->pages; };
+int Book::get_pages() const{ return this->pages; };
 
 PublishingHouse Book::get_publishingHouse(){ return this->publishingHouse; };
 
@@ -69,7 +71,7 @@ void Book::set_publishingHouse(PublishingHouse *temp_publishingHouse) {
 
 void Book::set_cover(const enum Cover Cover) { this->cover = Cover; };
 
-void Book::print() {
+void Book::print1() {
     cout << "     ";
     cout << digital_version;
     cout << "     ";
@@ -124,7 +126,7 @@ Book& Book::object_book(string s){
 }
 
 string Book::toString(){
-    std::stringstream result;
+    stringstream result;
     result << get_digital_version() << " " << get_title() << " " << get_pages() << " " << get_cover() << " "
            << get_publishingHouse().getVersion() << " " << get_publishingHouse().getName() << endl;
     return result.str();
@@ -196,7 +198,7 @@ istream & operator>>(istream &in, Book& book){
     cout << "Name of the publishing house: " << endl;
     in >> pb_name;
 
-    std::stringstream buffer;
+    stringstream buffer;
     buffer << dg << " " << name << " " << pages << " " << cover << " " << pb_name << " " << version;
     regex reg("^[0-1] [A-Z][a-zA-Z]* [0-9]{1,4} [0-1] [A-Z][a-zA-Z]* [A-Za-z][a-zA-Z]*");
 
@@ -211,3 +213,68 @@ istream & operator>>(istream &in, Book& book){
         return in;
         }
     }
+
+//First inheritor
+FictionBook::FictionBook(): Book(), direction(REVIVAL), genre(ROMANCE) {}
+
+FictionBook::FictionBook(int digital_version, string title, int pages, const PublishingHouse& publishingHouse, enum Cover cover, Direction direction, Genre genre) :
+        Book(digital_version, title, pages, publishingHouse, cover), direction(direction), genre(genre) {}
+
+FictionBook::FictionBook(FictionBook& copy): Book(copy.get_digital_version(), copy.get_title(), copy.get_pages(),
+                                                  copy.get_publishingHouse(), copy.get_cover()), direction(copy.get_direction()), genre(copy.get_genre()) {}
+
+FictionBook:: ~FictionBook() {}
+
+Direction FictionBook::get_direction() const { return this->direction; }
+
+Genre FictionBook::get_genre() const { return this->genre; }
+
+void FictionBook::set_direction(const Direction direction) {
+    this->direction = direction;
+}
+
+void FictionBook::set_genre(const Genre genre) {
+    this->genre = genre;
+}
+
+void FictionBook::print2() {
+    Book::print1();
+    cout << "     Direction: ";
+    cout << direction;
+    cout << "     Genre: ";
+    cout << genre << endl;
+}
+
+//Second inheritor
+ScienceBook::ScienceBook(): Book(), sphere(CHEMISTRY), certified(false) {}
+
+ScienceBook::ScienceBook(int digital_version, string title, int pages, const PublishingHouse& publishingHouse, enum Cover cover, Sphere sphere, bool certified) :
+        Book(digital_version, title, pages, publishingHouse, cover), sphere(sphere), certified(certified) {}
+
+ScienceBook::ScienceBook(ScienceBook& copy): Book(copy.get_digital_version(), copy.get_title(), copy.get_pages(),
+                                                  copy.get_publishingHouse(), copy.get_cover()), sphere(copy.get_sphere()), certified(copy.get_certified()) {}
+
+ScienceBook:: ~ScienceBook() {}
+
+Sphere ScienceBook::get_sphere() const { return this->sphere; }
+
+bool ScienceBook::get_certified() const { return this->certified; }
+
+void ScienceBook::set_sphere(const Sphere sphere) {
+    this->sphere = sphere;
+}
+
+void ScienceBook::set_certified(const bool certified) {
+    this->certified = certified;
+}
+
+void ScienceBook::print3() {
+    Book::print1();
+    cout << "     Sphere: ";
+    cout << sphere;
+    cout << "     Certified: ";
+    cout << certified << endl;
+}
+
+
+

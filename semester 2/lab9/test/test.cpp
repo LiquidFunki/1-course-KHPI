@@ -4,16 +4,13 @@
 
 #include "list.h"
 
-bool Test_toString(){
+bool Test_comparison_operator(){
     bool result = true;
 
+    Book book1 (true, "Harry", 158, PublishingHouse("license", "Ranok"), HARD );
+    Book book2 (true, "Harry", 158, PublishingHouse("license", "Ranok"), HARD );
 
-    Book book1 (true, "Potter", 150, PublishingHouse("license", "Ranok"), HARD );
-
-    string expected = "1 Potter 150 0 license Ranok\n";
-    string actual = book1.toString();
-
-    if (actual == expected) {
+    if (book2 == book1) {
         result &= true;
     }else{
         result &= false;
@@ -23,19 +20,13 @@ bool Test_toString(){
     return result;
 }
 
-bool Test_SplitLineToObject(){
+bool Test_operator_equals(){
     bool result = true;
 
-    string  obj = "1 Potter 150 license Ranok 0";
-    Book expected (true, "Potter", 150, PublishingHouse("license", "Ranok"), HARD );
-    Book actual = actual.object_book(obj);
+    Book book1 (true, "Harry", 158, PublishingHouse("license", "Ranok"), HARD );
+    Book book2 = book1;
 
-    if (actual.get_digital_version() == expected.get_digital_version()
-        && actual.get_title() == expected.get_title()
-        && actual.get_pages() == expected.get_pages()
-        && actual.get_cover() == expected.get_cover()
-        && actual.get_publishingHouse().getVersion() == expected.get_publishingHouse().getVersion()
-        && actual.get_publishingHouse().getName() == expected.get_publishingHouse().getName()){
+    if (book2 == book1) {
         result &= true;
     }else{
         result &= false;
@@ -44,25 +35,43 @@ bool Test_SplitLineToObject(){
     return result;
 }
 
+bool Test_operator_index(){
+    bool result = true;
 
+    Book book1 (true, "Harry", 158, PublishingHouse("license", "Ranok"), HARD );
+    Book book2 (true, "Snail", 135, PublishingHouse("license", "Ranok"), SOFT );
+    Book book3 (false, "Bukvar", 107, PublishingHouse("license", "Shkola"), SOFT );
+    List list;
+    list.setsize(0);
+    list.addBook(book1);
+    list.addBook(book2);
+    list.addBook(book3);
+
+    if (book2 == list[1]) {
+        result &= true;
+    }else{
+        result &= false;
+    }
+
+    return result;
+}
 
 int main(){
     bool result = true;
-
-    cout << "To string test\n\n";
-    result &= Test_toString();
+    cout << "\nTest operator =\n\n";
+    result = Test_operator_equals();
     if (result){
-        cout << "Result: succed\n";
+        cout << "Test result: succed\n";
     }else{
-        cout << "Result: failed";
+        cout << "Test result: failed";
     }
-
-    cout << "To object test\n\n";
-    result &= Test_SplitLineToObject();
+    cout << "\nTest operator ==\n\n";
+    result = Test_comparison_operator();
     if (result){
-        cout << "Result: succed\n";
+        cout << "Test result: succed\n";
     }else{
-        cout << "Result: failed";
+        cout << "Test result: failed";
     }
+    cout << "\n|------------------------------------------------|";
     return 0;
 }

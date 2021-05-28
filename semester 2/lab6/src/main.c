@@ -18,6 +18,7 @@ int main()
 
     struct List *list = NewList();
     ReadList(list);
+    printf("Element of the list with two words:\n");
     PrintFieldWithTwoWords(list);
     for (int i = 0; i < 44; ++i)
     {

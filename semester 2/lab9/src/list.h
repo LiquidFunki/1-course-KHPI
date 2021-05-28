@@ -8,6 +8,8 @@ class List{
     Book **books;
 public:
     ~List();
+    List();
+    List(const List &copy);
     void setsize(const int size);
 
     void addBook(Book& book);
@@ -18,6 +20,10 @@ public:
     void ReadFromFile(const string &path) ;
     void WriteToFile(const string &path);
     Book& object_book(string s);
+    Book& operator[](const size_t index) const;
+    size_t getsize() const;
+    friend ifstream& operator>>(ifstream &in, List& list);
+    friend istream& operator>>(istream &in, List& list);
 };
 
 ostream & operator<<(ostream &out ,const List& list);

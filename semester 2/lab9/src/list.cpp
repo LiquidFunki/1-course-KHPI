@@ -4,6 +4,13 @@ void List::setsize(const int size) {
     this->size = size;
 }
 
+List::List() : books(NULL), size(0){}
+
+List::List(const List &copy) : size(copy.size){
+    books = new Book*[size];
+    for(int i = 0; i < size; i++) books[i] = new Book(*copy.books[i]);
+}
+
 List::~List(){
     for (int i = 0; i < this->size; ++i) {
         delete this->books[i];
@@ -99,41 +106,10 @@ void List::ReadFromFile(const string &path) {
 
     ifstream in;
     in.open(path);
-    string object;
+    string obj;
     this->setsize(6);
-    this->books = new Book*[size];
-    for( int i = 0; i < size; i++ ){
-        books[i] = new Book;
-    }
-    int dv;
-    string tt;
-    int pg;
-    string vs;
-    string nm;
-    int cvr;
-
-    for(int i = 0; i < size; i++){
-        if (in.is_open()){
-            in >> dv;
-            books[i]->set_digital_version(dv);
-            in >> tt;
-            books[i]->set_title(tt);
-            in >> pg;
-            books[i]->set_pages(pg);
-            in >> vs;
-            in >> nm;
-            PublishingHouse pH(vs, nm);
-            books[i]->set_publishingHouse(&pH);
-            in >> cvr;
-            switch(cvr){
-                case 0:
-                    books[i]->set_cover(HARD);
-                case 1:
-                    books[i]->set_cover(SOFT);
-            }
-        }
-    }
-    in.close();
+    delete[] this->books;
+    in >> *this;
 }
 
 void List::WriteToFile(const string &path) {
@@ -141,7 +117,81 @@ void List::WriteToFile(const string &path) {
     ofstream out;
     out.open(path);
 
-    for(int i = 0; i < size; i++){
-        if(out.is_open()) out << this->getBook(i).toString();
+    out << *this;
+
+    out.close();
+}
+size_t List::getsize() const{
+    return this->size;
+}
+ifstream & operator>>(ifstream &in, List& list){
+    int dg;
+    int pages;
+    string name;
+    int cover;
+    string version;
+    string pb_name;
+
+    delete [] list.books;
+    list.books = new Book*[list.size];
+    for(int i = 0; i < list.size; i++) list.books[i] = new Book;
+
+    std::stringstream buffer;
+    regex reg("^[0-1] [A-Z][a-zA-Z]* [0-9]{1,4} [0-1] [A-Za-z][a-zA-Z]* [A-Za-z][a-zA-Z]*$");
+    for (int i = 0; i < list.getsize(); i++) {
+
+        in >> dg;
+        in >> name;
+        in >> pages;
+        in >> version;
+        in >> pb_name;
+        in >> cover;
+
+        buffer << dg << " " << name << " " << pages << " " << cover << " " << pb_name << " " << version;
+        if(regex_match(buffer.str(), reg)){
+            list[i].set_digital_version(dg);
+            list[i].set_title(name);
+            list[i].set_pages(pages);
+            if(cover == 0)  list[i].set_cover(HARD);
+            else if(cover == 1)  list[i].set_cover(SOFT);
+            PublishingHouse pH(version, pb_name);
+            list[i].set_publishingHouse(&pH);
+        }
+        buffer.str("");
     }
+    return in;
+}
+
+ostream & operator<<(ostream &out, const List& list){
+    for(int i = 0; i < list.getsize(); i++){
+        out<<list[i];
+    }
+    return out;
+}
+
+ofstream & operator<<(ofstream &out, const List& list){
+    for(int i = 0; i < list.getsize(); i++){
+        out<<list[i];
+    }
+    return out;
+}
+
+istream & operator>>(istream &in, List& list){
+    int size;
+    cout << "Enter size: " << endl;
+    cin >> size;
+    list.setsize(size);
+    list.books = new Book*[size];
+    for (int i = 0; i < size; i++){
+        list.books[i] = new Book;
+    }
+    for (int i = 0; i < size; i++){
+        in >> list[i];
+    }
+    return in;
+}
+
+Book& List::operator[](const size_t index) const{
+    if(index < size) return *books[index];
+    else return *books[0];
 }

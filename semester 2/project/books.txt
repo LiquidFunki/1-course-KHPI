@@ -1,0 +1,8 @@
+F 0 Past 158 license Ranok 0 0 0
+F 1 Sherlok 217 license Ranok 0 1 1
+F 0 Berserk 166 license Manga 1 2 3
+F 1 FirePunch 144 license Manga 0 3 4
+S 1 Chemistry 132 license Shkola 0 0 1
+S 0 Biology 133 license Shkola 1 1 1
+S 1 Physics 134 license Shkola 0 2 1
+S 1 It 135 license Shkola 0 3 1

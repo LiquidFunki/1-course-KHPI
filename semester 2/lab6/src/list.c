@@ -136,7 +136,7 @@ void ReadList(struct List* list)
             AddElementEnd(list, atoi(dv) , n , atoi(pg) ,ph ,atoi(cvr));
         }
     }
-    fclose(file);
+//    fclose(file);
 }
 
 bool checker(char dv[], char n[], char pg[], char ph[], char cvr[]){

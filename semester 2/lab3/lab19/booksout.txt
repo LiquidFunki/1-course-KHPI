@@ -1,30 +1,36 @@
 Availability of a digital version: Yes
 name: Harry.Potter
-pages: 150
+pages: 158
 Publishing house: Ranok
 Cover of the book: hard
 
 Availability of a digital version: Yes
-name: Stranger
-pages: 164
-Publishing house: Family
+name: Harry
+pages: 158
+Publishing house: Ranok
+Cover of the book: hard
+
+Availability of a digital version: NO
+name: It
+pages: 128
+Publishing house: Shkola
+Cover of the book: soft
+
+Availability of a digital version: NO
+name: Snail
+pages: 111
+Publishing house: Ranok
+Cover of the book: hard
+
+Availability of a digital version: Yes
+name: Berserk
+pages: 166
+Publishing house: Manga
 Cover of the book: soft
 
 Availability of a digital version: Yes
-name: Stranger
-pages: 164
-Publishing house: Family
-Cover of the book: soft
-
-Availability of a digital version: Yes
-name: Stranger
-pages: 164
-Publishing house: Family
-Cover of the book: soft
-
-Availability of a digital version: Yes
-name: Stranger
-pages: 164
-Publishing house: Family
+name: Berserk
+pages: 166
+Publishing house: Manga
 Cover of the book: soft
 
