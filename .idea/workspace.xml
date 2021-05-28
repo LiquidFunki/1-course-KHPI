@@ -6,7 +6,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f4e356-1f99-49cc-8a77-daa485404d87" name="Default Changelist" comment="reports" />
+    <list default="true" id="84f4e356-1f99-49cc-8a77-daa485404d87" name="Default Changelist" comment="reports">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +30,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/semester 2/lab5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -45,6 +54,8 @@
       <workItem from="1618292930684" duration="255000" />
       <workItem from="1618293746372" duration="69000" />
       <workItem from="1618898562770" duration="414000" />
+      <workItem from="1622187833067" duration="151000" />
+      <workItem from="1622188012631" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="rework">
       <created>1616780417491</created>
@@ -88,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618898892499</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added labs(with no reports)">
+      <created>1622187920920</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622187920920</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +128,7 @@
     <MESSAGE value="added lab 19 &amp; 20" />
     <MESSAGE value="rework" />
     <MESSAGE value="reports" />
-    <option name="LAST_COMMIT_MESSAGE" value="reports" />
+    <MESSAGE value="added labs(with no reports)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added labs(with no reports)" />
   </component>
 </project>

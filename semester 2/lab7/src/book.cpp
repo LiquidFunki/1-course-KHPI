@@ -2,17 +2,17 @@
 
 //Publishing house
 
-PublishingHouse::PublishingHouse() : version(), name() { cout << "Default constructor" << endl; };
-//PublishingHouse::PublishingHouse() : version(), name() { };
+//PublishingHouse::PublishingHouse() : version(), name() { cout << "Default constructor" << endl; };
+PublishingHouse::PublishingHouse() : version(), name() { };
 
-PublishingHouse::PublishingHouse(string version, string name) : version(version), name(name) { cout << "Parametric contructor" << endl; };
-//PublishingHouse::PublishingHouse(string version, string name) : version(version), name(name) { };
+//PublishingHouse::PublishingHouse(string version, string name) : version(version), name(name) { cout << "Parametric contructor" << endl; };
+PublishingHouse::PublishingHouse(string version, string name) : version(version), name(name) { };
 
-PublishingHouse::PublishingHouse(const PublishingHouse &temp) : version(temp.version), name(temp.name) { cout << "Copy constructor" << endl; };
-//PublishingHouse::PublishingHouse(const PublishingHouse &temp) : version(temp.version), name(temp.name) { }
+//PublishingHouse::PublishingHouse(const PublishingHouse &temp) : version(temp.version), name(temp.name) { cout << "Copy constructor" << endl; };
+PublishingHouse::PublishingHouse(const PublishingHouse &temp) : version(temp.version), name(temp.name) { }
 
-PublishingHouse::~PublishingHouse() { cout << "default destructor" << endl; };
-//PublishingHouse::~PublishingHouse() { };
+//PublishingHouse::~PublishingHouse() { cout << "default destructor" << endl; };
+PublishingHouse::~PublishingHouse() { };
 
 string PublishingHouse::getVersion(){ return this->version; };
 
@@ -30,21 +30,21 @@ void PublishingHouse::printpb() {
 
 //Book
 
-Book::Book() : digital_version(false), title(), pages(0), publishingHouse(), cover(HARD) { cout << "Default constructor" << endl; };
-//Book::Book() : digital_version(false), title(), pages(0), publishingHouse(), cover(HARD) { };
+//Book::Book() : digital_version(false), title(), pages(0), publishingHouse(), cover(HARD) { cout << "Default constructor" << endl; };
+Book::Book() : digital_version(false), title(), pages(0), publishingHouse(), cover(HARD) { };
 
-Book::Book(bool digital_version, string title, int pages, const PublishingHouse& publishingHouse, enum Cover cover) :
-        digital_version(digital_version), title(title), pages(pages), publishingHouse(publishingHouse), cover(cover) { cout << "Parametric contructor" << endl; };
 /**Book::Book(bool digital_version, string title, int pages, const PublishingHouse& publishingHouse, enum Cover cover) :
-        digital_version(digital_version), title(title), pages(pages), publishingHouse(publishingHouse), cover(cover) { };*/
+        digital_version(digital_version), title(title), pages(pages), publishingHouse(publishingHouse), cover(cover) { cout << "Parametric contructor" << endl; };*/
+Book::Book(bool digital_version, string title, int pages, const PublishingHouse& publishingHouse, enum Cover cover) :
+        digital_version(digital_version), title(title), pages(pages), publishingHouse(publishingHouse), cover(cover) { };
 
-Book::Book(const Book &temp) : digital_version(temp.digital_version), title(temp.title), pages(temp.pages),
-                               publishingHouse(temp.publishingHouse), cover(temp.cover) { cout << "Copy constructor" << endl; };
 /**Book::Book(const Book &temp) : digital_version(temp.digital_version), title(temp.title), pages(temp.pages),
-                               publishingHouse(temp.publishingHouse), cover(temp.cover) { };*/
+                               publishingHouse(temp.publishingHouse), cover(temp.cover) { cout << "Copy constructor" << endl; };*/
+Book::Book(const Book &temp) : digital_version(temp.digital_version), title(temp.title), pages(temp.pages),
+                               publishingHouse(temp.publishingHouse), cover(temp.cover) { };
 
-Book::~Book() { cout << "default destructor" << endl; };
-//Book::~Book() { };
+//Book::~Book() { cout << "default destructor" << endl; };
+Book::~Book() { };
 
 bool Book::get_digital_version(){ return this->digital_version; };
 
