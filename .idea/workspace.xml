@@ -51,6 +51,9 @@
       <workItem from="1622188012631" duration="25000" />
       <workItem from="1622189941065" duration="57000" />
       <workItem from="1622192617566" duration="42000" />
+      <workItem from="1622195319296" duration="44000" />
+      <workItem from="1622197642787" duration="210000" />
+      <workItem from="1622201252741" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="rework">
       <created>1616780417491</created>
@@ -115,7 +118,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622192650170</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added lab8 report + assets for lab9 report">
+      <created>1622195354411</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1622195354411</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added lab9 report + assets for lab 10">
+      <created>1622197663336</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1622197663336</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added lab10 report + assets for lab11 report">
+      <created>1622201269113</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1622201269113</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +164,9 @@
     <MESSAGE value="added labs(with no reports)" />
     <MESSAGE value="added lab6 report + assests for lab 7 report" />
     <MESSAGE value="added lab7 report + assets for lab 8 report" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lab7 report + assets for lab 8 report" />
+    <MESSAGE value="added lab8 report + assets for lab9 report" />
+    <MESSAGE value="added lab9 report + assets for lab 10" />
+    <MESSAGE value="added lab10 report + assets for lab11 report" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lab10 report + assets for lab11 report" />
   </component>
 </project>

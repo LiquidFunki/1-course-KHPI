@@ -65,6 +65,7 @@ bool predRanok(Book *a){
         return false;
     }
 }
+
 vector<FictionBook*> List::findRanok(){
     vector<FictionBook*> temp;
     auto iter = books.begin();
