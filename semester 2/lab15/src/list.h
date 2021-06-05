@@ -9,7 +9,9 @@ class List {
 public:
     List();
 
-    int getindex();
+    vector<Book*>::iterator begin();
+
+    vector<Book*>::iterator end();
 
     List(const List &copy);
 
@@ -19,9 +21,15 @@ public:
 
     vector<Book*> getBook();
 
-    void setBook(vector<Book*> &book1);
-
     void showAll() const;
+
+    vector<FictionBook*> findRanok();
+
+    Book* findMaxPages();
+
+    vector<FictionBook*> findOnlineDetective();
+
+    void SortByPages(bool flag);
 
     void InsertList(List  &in);
 
@@ -29,5 +37,4 @@ public:
 
     void DeleteAll();
 };
-
 #endif

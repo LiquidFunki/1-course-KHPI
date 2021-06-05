@@ -37,8 +37,20 @@ vector<Book*> List::getBook() {
     return this->books;
 }
 
+void List::setBook(vector<Book *> &book1) {
+//    //DeleteAll();
+//    while (!books.empty()) {
+//        books.pop_back();
+//    }
+//    books.clear();
+//    books.shrink_to_fit();
+//    index = -1;
+    this->books = book1;
+    index = book1.size();
+}
+
 void List::showAll() const {
-    for (int i = 0; i <= this->index; ++i) {
+    for (int i = 0; i < books.size(); ++i) {
         books[i]->print();
         cout << endl;
     }

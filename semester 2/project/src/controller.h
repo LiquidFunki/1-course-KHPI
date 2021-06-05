@@ -15,7 +15,7 @@ public:
 
     void WriteToFile(const string &path);
 
-    List getlist();
+    List* getlist();
 
     void SortByField(string field);
 
@@ -25,7 +25,7 @@ public:
 
     vector<FictionBook*> findRanok();
 
-    Book* findMaxPages();
+    vector<Book*> findMaxPages();
 };
 
 

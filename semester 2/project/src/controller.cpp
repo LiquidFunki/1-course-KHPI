@@ -4,8 +4,8 @@
 
 #include "controller.h"
 
-List Controller::getlist() {
-    return this->list;
+List* Controller::getlist() {
+    return &list;
 }
 void Controller::ReadFromFile(const string &path) {
 
@@ -143,7 +143,7 @@ void Controller::WriteToFile(const string &path) {
                 out << ((ScienceBook*)temp[i]->clone())->get_certified();
                 out << endl;
             }
-        }
+        }else break;
     }
 }
 
@@ -299,21 +299,12 @@ void Controller::SortByPages(bool flag) {
     }
 }
 
-Book* Controller::findMaxPages() {
+vector<Book*> Controller::findMaxPages() {
     vector<Book*> temp;
     auto temp1 = list.getBook();
-    int n;
-    cout << "Enter how you want to sort your list: 0 - up to down/max pages 1 - down to up/min pages " << endl;
-    cin >> n;
     temp.reserve(temp1.size());
     copy(temp1.begin(), temp1.end(), back_inserter(temp));
-    if (n == 0) {
-        sort(temp.begin(), temp.end(), functorFalsePages);
-    } else if (n == 1) {
-        sort(temp.begin(), temp.end(), functorTruePages);
-    }else {
-        cout << "Error";
-    }
+    sort(temp.begin(), temp.end(), functorFalsePages);
     auto iter = temp.begin();
     if (((Book*)*iter)->GetType() == 'F'){
         ((FictionBook*)*iter)->print();
@@ -325,9 +316,8 @@ Book* Controller::findMaxPages() {
     while (!temp.empty()){
         temp.pop_back();
     }
-    temp.clear();
-    temp.shrink_to_fit();
-    return ((Book*)*iter)->clone();
+    temp.push_back(*iter);
+    return temp;
 }
 
 bool functorTrueTitle(Book* A, Book* B){//down to up
@@ -809,7 +799,7 @@ void Controller::SortByField(string field) {
     } else {
         cout << "Error";
     }
-    for (int i = 0; i <= temp.size(); ++i) {
+    for (int i = 0; i < temp.size(); ++i) {
         temp[i]->print();
     }
     temp.clear();

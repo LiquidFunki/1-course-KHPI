@@ -1,3 +1,0 @@
-D:/git/semester 2/lab1/lab12/src/task1/cmake-build-debug/CMakeFiles/task1.dir
-D:/git/semester 2/lab1/lab12/src/task1/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/git/semester 2/lab1/lab12/src/task1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

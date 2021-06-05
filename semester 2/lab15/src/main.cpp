@@ -34,46 +34,11 @@ int main() {
     secondList->addBook(&science5);
 
 
-        vector<int> myvector;
-        vector<int>::iterator iter;
-    (*iter + 1);
-    myvector[1];
-    //Исходный список
-    cout << "Your List: " << endl;
-    list->showAll();
-    cout << endl;
+    for(auto & obj: *list){
+        obj->print();
+    }
 
 
-    //find ranok books
-    cout << "Ranok Books: " << endl;
-    list->findRanok();
-    cout << endl;
-
-    //find online detective
-    cout << "Online Detective: " << endl;
-    list->findOnlineDetective();
-    cout << endl;
-
-    //max pages
-    cout << "Max Pages: " << endl;
-    list->findMaxPages();
-    cout << endl;
-
-    //sort list
-    cout << "Sort list" << endl;
-    list->SortByPages(false);
-    list->showAll();
-    cout << endl;
-
-    //insert list
-    cout << "Second list" << endl;
-    secondList->showAll();
-    cout << endl;
-
-    //new list
-    cout << "New list" << endl;
-    list->InsertList(*secondList);
-    list->showAll();
 
     delete list;
     delete secondList;
