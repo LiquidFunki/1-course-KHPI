@@ -32,7 +32,8 @@
 
 _Метод:_  `FindIndexElement`: Знаходить в списку індекс заданого елементу.
 _Схема алгоритму метода `FindIndexElement`_ подана на рис. 1.
-![Блок-схема](https://github.com/Vlad-Makarenko/Programing-repo/blob/main/lab29/doc/assets/FindIndexElement.png?raw=true)
+
+![Блок-схема](https://github.com/LiquidFunki/liquid-prog/blob/main/semester%202/lab13/doc/assets/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.png?raw=true)
 
 Рисунок 1 --- Схема алгоритму метода`FindIndexElement`
 
@@ -88,14 +89,14 @@ void deleteElement(int index){
 
 Для демонстрації результатів використовується Clion. Нижче наводиться послідовність  дій запуску програми.
 
-_Крок 1_ (рис.2 ). Демонстрація  роботи классу для різних типів даних
+_Крок 1_ (рис.2 ). Демонстрація  роботи класу для різних типів даних.
 
-![result1](https://github.com/Vlad-Makarenko/Programing-repo/blob/main/lab29/doc/assets/Screenshot_3.png?raw=true)
+![result1](https://github.com/LiquidFunki/liquid-prog/blob/main/semester%202/lab13/doc/assets/Screenshot_3.png?raw=true)
 Рисунок 2 --- Результат виконання кроку 1
 
-_Крок 2_ (див. рис.3 ). Демонстрація роботи методу видалення елементу за індексом
+_Крок 2_ (див. рис.3 ). Демонстрація роботи методу видалення елементу за індексом.
 
-![result2](https://github.com/Vlad-Makarenko/Programing-repo/blob/main/lab29/doc/assets/Screenshot_1.png?raw=true)
+![result2](https://github.com/LiquidFunki/liquid-prog/blob/main/semester%202/lab13/doc/assets/Screenshot_1.png?raw=true)
 Рисунок 3 --- Результат виконання кроку 2
 
 

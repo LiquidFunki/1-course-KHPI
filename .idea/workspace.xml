@@ -6,9 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f4e356-1f99-49cc-8a77-daa485404d87" name="Default Changelist" comment="reports">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="84f4e356-1f99-49cc-8a77-daa485404d87" name="Default Changelist" comment="reports" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +54,7 @@
       <workItem from="1622201252741" duration="25000" />
       <workItem from="1622202687439" duration="28000" />
       <workItem from="1622203121688" duration="16000" />
+      <workItem from="1622905996344" duration="539000" />
     </task>
     <task id="LOCAL-00001" summary="rework">
       <created>1616780417491</created>
@@ -155,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622203130949</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added assets for last lab reports">
+      <created>1622906030157</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1622906030157</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +191,7 @@
     <MESSAGE value="added lab10 report + assets for lab11 report" />
     <MESSAGE value="added lab11 report + assets for lab14 report" />
     <MESSAGE value="added lab14_report" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lab14_report" />
+    <MESSAGE value="added assets for last lab reports" />
+    <option name="LAST_COMMIT_MESSAGE" value="added assets for last lab reports" />
   </component>
 </project>

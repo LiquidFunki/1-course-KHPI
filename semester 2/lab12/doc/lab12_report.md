@@ -44,8 +44,7 @@ void setElem(int arrIndex, int index, int val);
 
 _Метод_ `int* FindMinElem();`Виконує індивідуальне завдання №5 - знаходить в кожному масиві мінімальний елемент, та записує його у вихідний масив; Повертає масив з мінімальними елементами.
 _Схема алгоритму метода_  подана на рис. 1.
-![result3](https://github.com/Vlad-Makarenko/Programing-repo/blob/main/lab28/doc/assets/FindMaxElem().png?raw=true)
-
+![result3](https://github.com/LiquidFunki/liquid-prog/blob/main/semester%202/lab12/doc/assets/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.png?raw=true)
 Рисунок 1 --- Схема алгоритму метода `int* FindMinElem().`
 
 ### 2.3 Важливі фрагменти програми
@@ -136,14 +135,17 @@ int* Task::FindMinElem(){
 
 _Крок 1_ (рис.2 ). Демонстрація  відлову виключень для читання з файлу(1 випадок - некоректна назва файлу, 2 випадок - некоректна кількість масивів у файлі, 3 випадок - некоректний розмір масиву в файлі)
 
-![result1](https://github.com/Vlad-Makarenko/Programing-repo/blob/main/lab28/doc/assets/Screenshot_1.png?raw=true)
+![result1](https://github.com/LiquidFunki/liquid-prog/blob/main/semester%202/lab12/doc/assets/Screenshot_4.png?raw=true)
+
 Рисунок 2 --- Результат виконання кроку 1
 
 _Крок 2_ (див. рис.3-4 ). Демонстрація виконання методу. Рисунок 3 - вхідні данні. Рисунок 4 - результат(масив з мінімальних елементів кожного з масивів)
 
-![result2](https://github.com/Vlad-Makarenko/Programing-repo/blob/main/lab28/doc/assets/Screenshot_2.png?raw=true)
+![result2](https://github.com/LiquidFunki/liquid-prog/blob/main/semester%202/lab12/doc/assets/Screenshot_1.png?raw=true)
+
 Рисунок 3 --- Вхідні данні.
-![result2](https://github.com/Vlad-Makarenko/Programing-repo/blob/main/lab28/doc/assets/Screenshot_2.png?raw=true)
+
+![result2](https://github.com/LiquidFunki/liquid-prog/blob/main/semester%202/lab12/doc/assets/Screenshot_2.png?raw=true)
 Рисунок 4 --- Результат виконання.
 
 ### Структура проекту

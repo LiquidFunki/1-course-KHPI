@@ -25,14 +25,14 @@
 
 _Метод:_  `begin()`: повертає початок вектору класу-контейнер
 _Схема алгоритму метода `begin()`_ подана на рис. 1.
-![Блок-схема](https://github.com/Vlad-Makarenko/Programing-repo/blob/main/lab31/doc/assets/begin.png?raw=true)
+![Блок-схема](https://github.com/LiquidFunki/liquid-prog/blob/main/semester%202/lab15/doc/assests/1.png?raw=true)
 
 Рисунок 1 --- Схема алгоритму метода`begin()`
 
 
 _Метод:_  `end()`: повертає кінець вектору класу-контейнер
 _Схема алгоритму метода `end()`_ подана на рис. 2.
-![Блок-схема](https://github.com/Vlad-Makarenko/Programing-repo/blob/main/lab31/doc/assets/end.png?raw=true)
+![Блок-схема](https://github.com/LiquidFunki/liquid-prog/blob/main/semester%202/lab15/doc/assests/2.png?raw=true)
 
 Рисунок 2 --- Схема алгоритму метода`end()`
 
@@ -68,7 +68,8 @@ for(auto &book : *list){
 
 _Крок 1_ (рис.3 ). Демонстрація роботи ітеративності
 
-![result1](https://github.com/Vlad-Makarenko/Programing-repo/blob/main/lab31/doc/assets/Screenshot_1.png?raw=true)
+![result1](https://github.com/LiquidFunki/liquid-prog/blob/main/semester%202/lab15/doc/assests/Screenshot_2.png?raw=true)
+
 Рисунок 3 --- Результат виконання кроку 1
 
 

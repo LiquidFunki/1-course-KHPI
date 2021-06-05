@@ -133,17 +133,20 @@ for (auto &backpack : list) {
 
 _Крок 1_ (рис.1 ). Демонстрація контейнеру на основі `unique_ptr`
 
-![result1](https://github.com/Vlad-Makarenko/Programing-repo/blob/main/lab32/doc/assets/Screenshot_1.png?raw=true)
+![result1](https://github.com/LiquidFunki/liquid-prog/blob/main/semester%202/lab16/doc/assets/unique.png?raw=true)
+
 Рисунок 1 --- Результат виконання кроку 1
 
 _Крок 2_ (рис.2 ). Демонстрація контейнеру на основі `shared_ptr`
 
-![result1](https://github.com/Vlad-Makarenko/Programing-repo/blob/main/lab32/doc/assets/Screenshot_2.png?raw=true)
+![result1](https://github.com/LiquidFunki/liquid-prog/blob/main/semester%202/lab16/doc/assets/shared.png?raw=true)
+
 Рисунок 2 --- Результат виконання кроку 2
 
 _Крок 3_ (рис.3 ). Демонстрація контейнеру на основі `weak_ptr`
 
-![result1](https://github.com/Vlad-Makarenko/Programing-repo/blob/main/lab32/doc/assets/Screenshot_3.png?raw=true)
+![result1](https://github.com/LiquidFunki/liquid-prog/blob/main/semester%202/lab16/doc/assets/weak.png?raw=true)
+
 Рисунок 3 --- Результат виконання кроку 3
 
 
