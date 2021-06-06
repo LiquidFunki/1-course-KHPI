@@ -47,11 +47,11 @@ public:
         FictionBook fictionBook2(true, "Sherlok", 217, PublishingHouse("license", "Pablo"), HARD, MODERN, DETECTIVE);
 
 
-        cout << "Ожидаемый результат:" << endl;
+        cout << "Expected result:" << endl;
         fictionBook2.print();
         cout << endl;
 
-        cout << endl << "Актуальный результат:" << endl;
+        cout << endl << "Actual result:" << endl;
         vector<FictionBook*> actual = controller.findOnlineDetective();
         cout << endl;
 
@@ -81,11 +81,11 @@ public:
         FictionBook fictionBook2(true, "Sherlok", 217, PublishingHouse("license", "Pablo"), HARD, MODERN, DETECTIVE);
 
 
-        cout << "Ожидаемый результат:" << endl;
+        cout << "Expected result:" << endl;
         fictionBook2.print();
         cout << endl;
 
-        cout << endl << "Актуальный результат:" << endl;
+        cout << endl << "Actual result:" << endl;
         vector<Book *> actual = controller.findMaxPages();
         cout << endl;
 
@@ -115,30 +115,39 @@ public:
 int main(){
     bool result;
     ControllerTest controllerTest;
-    cout << "\n|-----------------------------------------------------------ТЕСТ МЕТОДА 1------------------------------------------------------------|\n\n";
+
+    cout << endl << "First method test: " << endl;
+    cout << endl;
     result = controllerTest.Test_FindRanokBook();
     if (result){
-        cout << endl << "РЕЗУЛЬТАТ ТЕСТА: Good job so far\n";
+        cout << "Test result: success." << endl;
     }else{
-        cout << "D'oh";
+        cout << "Test result: failed.";
     }
 
-    cout << "\n|-----------------------------------------------------------ТЕСТ МЕТОДА 2------------------------------------------------------------|\n\n";
+    cout << endl;
+    cout << endl;
+
+    cout << "Second method test: " << endl;
+    cout << endl;
     result = controllerTest.Test_FindOnlineDetective();
     if (result){
-        cout << endl << "РЕЗУЛЬТАТ ТЕСТА: Good job so far\n";
+        cout << "Test result: success." << endl;
     }else{
-        cout << "D'oh";
+        cout << "Test result: failed.";
     }
 
-    cout << "\n|----------------------------------------------------------ТЕСТ МЕТОДА 3------------------------------------------------------------|\n\n";
+    cout << endl;
+    cout << endl;
+
+    cout << "Third method test: " << endl;
+    cout << endl;
     result = controllerTest.Test_FindMaxPages();
     if (result){
-        cout << endl << "РЕЗУЛЬТАТ ТЕСТА: Good job so far\n";
+        cout <<  "Test result: success." << endl;
     }else{
-        cout << "D'oh";
+        cout << "Test result: failed.";
     }
 
-    cout << "\n|------------------------------------------------------------------------------------------------------------------------------------|";
-    return 0;
+   return 0;
 }

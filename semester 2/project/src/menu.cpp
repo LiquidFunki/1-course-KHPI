@@ -2,6 +2,15 @@
 // Created by Yura on 30.05.2021.
 //
 
+/**
+ * @file menu.cpp
+ * @brief File that performs methods of menu class
+ *
+ * @author Klymenko Y.
+ * @date 29-may-2021
+ * @version 1.0
+ */
+
 #include "menu.h"
 
 void Menu::User_menu() {
@@ -69,63 +78,64 @@ void Menu::User_menu() {
                 cin >> checker;
                 if (checker == 0) {
                     FictionBook fiction;
+                    cin >> fiction;
 
-                    stringstream buffer1;
-
-                    regex reg("^[0-1] [A-Z][a-zA-Z]* [0-9]{1,4} [A-Za-z][a-zA-Z]* [A-Za-z][a-zA-Z]* [0-4] [0-4] [0-4]$");
-
-                    cout << "Availability of digital version: 0 - no, 1 - yes: " << endl;
-                    int dv;
-                    cin >> dv;
-                    fiction.set_digital_version(dv);
-
-                    cout << "Name of the book: " << endl;
-                    string title;
-                    cin >> title;
-                    fiction.set_title(title);
-
-                    cout << "Count of pages: " << endl;
-                    int pages;
-                    cin >> pages;
-                    fiction.set_pages(pages);
-
-                    cout << "Publishing house version: " << endl;
-                    string ph_version;
-                    cin >> ph_version;
-                    cout << "Name of the publishong house: " << endl;
-                    string ph_name;
-                    cin >> ph_name;
-                    PublishingHouse *ph = new PublishingHouse(ph_version, ph_name);
-                    fiction.set_pH(ph);
-
-                    cout << "Cover of the book: 0 - hard, 1 - soft: " << endl;
-                    int cover;
-                    cin >> cover;
-                    if (cover == 0) fiction.set_cover(HARD);
-                    else if (cover == 1) fiction.set_cover(SOFT);
-
-                    cout << "Direction of the book: 0 - revival, 1 - modern, 2 - postmodern: " << endl;
-                    int direction;
-                    cin >> direction;
-                    if (direction == 0) fiction.set_direction(REVIVAL);
-                    else if (direction == 1) fiction.set_direction(MODERN);
-                    else if (direction == 2) fiction.set_direction(POSTMODERN);
-                    else cout << "Error";
-
-                    cout << "Genre of the book: 0 - romance, 1 - detective, 2 - novel, 3 - story: " << endl;
-                    int genre;
-                    cin >> genre;
-                    if (genre == 0) fiction.set_genre(ROMANCE);
-                    else if (genre == 1) fiction.set_genre(DETECTIVE);
-                    else if (genre == 2) fiction.set_genre(NOVEL);
-                    else if (genre == 3) fiction.set_genre(STORY);
-                    else cout << "Error";
-
-                    buffer1 << dv << " " << title << " " << pages << " " << ph_version << " " << ph_name << " "
-                    << cover << " " << direction << " " << genre;
-
-                    if (regex_match(buffer1.str(), reg)) {
-                    cout << "Book you added: " << endl;
+//                    stringstream buffer1;
+//
+//                    regex reg("^[0-1] [A-Z][a-zA-Z]* [0-9]{1,4} [A-Za-z][a-zA-Z]* [A-Za-z][a-zA-Z]* [0-4] [0-4] [0-4]$");
+//
+//                    cout << "Availability of digital version: 0 - no, 1 - yes: " << endl;
+//                    int dv;
+//                    cin >> dv;
+//                    fiction.set_digital_version(dv);
+//
+//                    cout << "Name of the book: " << endl;
+//                    string title;
+//                    cin >> title;
+//                    fiction.set_title(title);
+//
+//                    cout << "Count of pages: " << endl;
+//                    int pages;
+//                    cin >> pages;
+//                    fiction.set_pages(pages);
+//
+//                    cout << "Publishing house version: " << endl;
+//                    string ph_version;
+//                    cin >> ph_version;
+//                    cout << "Name of the publishong house: " << endl;
+//                    string ph_name;
+//                    cin >> ph_name;
+//                    PublishingHouse *ph = new PublishingHouse(ph_version, ph_name);
+//                    fiction.set_pH(ph);
+//
+//                    cout << "Cover of the book: 0 - hard, 1 - soft: " << endl;
+//                    int cover;
+//                    cin >> cover;
+//                    if (cover == 0) fiction.set_cover(HARD);
+//                    else if (cover == 1) fiction.set_cover(SOFT);
+//
+//                    cout << "Direction of the book: 0 - revival, 1 - modern, 2 - postmodern: " << endl;
+//                    int direction;
+//                    cin >> direction;
+//                    if (direction == 0) fiction.set_direction(REVIVAL);
+//                    else if (direction == 1) fiction.set_direction(MODERN);
+//                    else if (direction == 2) fiction.set_direction(POSTMODERN);
+//                    else cout << "Error";
+//
+//                    cout << "Genre of the book: 0 - romance, 1 - detective, 2 - novel, 3 - story: " << endl;
+//                    int genre;
+//                    cin >> genre;
+//                    if (genre == 0) fiction.set_genre(ROMANCE);
+//                    else if (genre == 1) fiction.set_genre(DETECTIVE);
+//                    else if (genre == 2) fiction.set_genre(NOVEL);
+//                    else if (genre == 3) fiction.set_genre(STORY);
+//                    else cout << "Error";
+//
+//                    buffer1 << dv << " " << title << " " << pages << " " << ph_version << " " << ph_name << " "
+//                    << cover << " " << direction << " " << genre;
+//
+//                    if (regex_match(buffer1.str(), reg)) {
+//                    cout << "Book you added: " << endl;
                     fiction.print();
 
                     cout << "Do you want to add it in the end of the list or by index: 0 - end, 1 - by index: " << endl;
@@ -145,7 +155,7 @@ void Menu::User_menu() {
                         controller.getlist()->setBook(temp);
                         cout << "Your list: " << endl;
                         controller.getlist()->showAll();
-                    }} else {
+                    } else {
                         cout << endl;
                         cout << endl;
                         cout << "Error, wrong definition" << endl;
@@ -153,60 +163,61 @@ void Menu::User_menu() {
                     }
                 } else if (checker == 1) {
                     ScienceBook science;
+                    cin >> science;
 
-                    stringstream buffer2;
-
-                    regex reg("^[0-1] [A-Z][a-zA-Z]* [0-9]{1,4} [A-Za-z][a-zA-Z]* [A-Za-z][a-zA-Z]* [0-4] [0-4] [0-4]$");
-
-                    cout << "Availability of digital version: 0 - no, 1 - yes: " << endl;
-                    int dv1;
-                    cin >> dv1;
-                    science.set_digital_version(dv1);
-
-                    cout << "Name of the book: " << endl;
-                    string title1;
-                    cin >> title1;
-                    science.set_title(title1);
-
-                    cout << "Count of pages: " << endl;
-                    int pages1;
-                    cin >> pages1;
-                    science.set_pages(pages1);
-
-                    cout << "Publishing house version: " << endl;
-                    string ph_version1;
-                    cin >> ph_version1;
-                    cout << "Name of the publishong house: " << endl;
-                    string ph_name1;
-                    cin >> ph_name1;
-                    PublishingHouse *ph1 = new PublishingHouse(ph_version1, ph_name1);
-                    science.set_pH(ph1);
-
-                    cout << "Cover of the book: 0 - hard, 1 - soft: " << endl;
-                    int cover1;
-                    cin >> cover1;
-                    if (cover1 == 0) science.set_cover(HARD);
-                    else if (cover1 == 1) science.set_cover(SOFT);
-
-                    cout << "Sphere of the book: 0 - chemistry, 1 - biology, 2 - physics, 3 - information technologies: " << endl;
-                    int sphere1;
-                    cin >> sphere1;
-                    if (sphere1 == 0) science.set_sphere(CHEMISTRY);
-                    else if (sphere1 == 1) science.set_sphere(BIOLOGY);
-                    else if (sphere1 == 2) science.set_sphere(PHYSICS);
-                    else if (sphere1 == 3) science.set_sphere(IT);
-                    else cout << "Error";
-
-                    cout << "Is this book certified: 0 - no, 1 - yes: " << endl;
-                    int certified1;
-                    cin >> certified1;
-                    science.set_certified(certified1);
-
-                    buffer2 << dv1 << " " << title1 << " " << pages1 << " " << ph_version1 << " "
-                    << ph_name1 << " " << cover1 << " " << sphere1 << " " << certified1;
-
-                    if (regex_match(buffer2.str(), reg)) {
-                    cout << "Book you added: " << endl;
+//                    stringstream buffer2;
+//
+//                    regex reg("^[0-1] [A-Z][a-zA-Z]* [0-9]{1,4} [A-Za-z][a-zA-Z]* [A-Za-z][a-zA-Z]* [0-4] [0-4] [0-4]$");
+//
+//                    cout << "Availability of digital version: 0 - no, 1 - yes: " << endl;
+//                    int dv1;
+//                    cin >> dv1;
+//                    science.set_digital_version(dv1);
+//
+//                    cout << "Name of the book: " << endl;
+//                    string title1;
+//                    cin >> title1;
+//                    science.set_title(title1);
+//
+//                    cout << "Count of pages: " << endl;
+//                    int pages1;
+//                    cin >> pages1;
+//                    science.set_pages(pages1);
+//
+//                    cout << "Publishing house version: " << endl;
+//                    string ph_version1;
+//                    cin >> ph_version1;
+//                    cout << "Name of the publishong house: " << endl;
+//                    string ph_name1;
+//                    cin >> ph_name1;
+//                    PublishingHouse *ph1 = new PublishingHouse(ph_version1, ph_name1);
+//                    science.set_pH(ph1);
+//
+//                    cout << "Cover of the book: 0 - hard, 1 - soft: " << endl;
+//                    int cover1;
+//                    cin >> cover1;
+//                    if (cover1 == 0) science.set_cover(HARD);
+//                    else if (cover1 == 1) science.set_cover(SOFT);
+//
+//                    cout << "Sphere of the book: 0 - chemistry, 1 - biology, 2 - physics, 3 - information technologies: " << endl;
+//                    int sphere1;
+//                    cin >> sphere1;
+//                    if (sphere1 == 0) science.set_sphere(CHEMISTRY);
+//                    else if (sphere1 == 1) science.set_sphere(BIOLOGY);
+//                    else if (sphere1 == 2) science.set_sphere(PHYSICS);
+//                    else if (sphere1 == 3) science.set_sphere(IT);
+//                    else cout << "Error";
+//
+//                    cout << "Is this book certified: 0 - no, 1 - yes: " << endl;
+//                    int certified1;
+//                    cin >> certified1;
+//                    science.set_certified(certified1);
+//
+//                    buffer2 << dv1 << " " << title1 << " " << pages1 << " " << ph_version1 << " "
+//                    << ph_name1 << " " << cover1 << " " << sphere1 << " " << certified1;
+//
+//                    if (regex_match(buffer2.str(), reg)) {
+//                    cout << "Book you added: " << endl;
                     science.print();
 
                     cout << "Do you want to add it in the end of the list or by index: 0 - end, 1 - by index: " << endl;
@@ -226,7 +237,7 @@ void Menu::User_menu() {
                         controller.getlist()->setBook(temp1);
                         cout << "Your list: " << endl;
                         controller.getlist()->showAll();
-                    }}else {
+                    }else {
                         cout << "Error, wrong option" << endl;
                         return;
                     }

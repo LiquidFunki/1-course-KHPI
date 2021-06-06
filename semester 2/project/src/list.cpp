@@ -1,12 +1,18 @@
+/**
+ * @file list.cpp
+ * @brief File that performs methods of list class
+ *
+ * @author Klyemnko Y.
+ * @date 29-may-2021
+ * @version 1.0
+ */
+
 #include "list.h"
 
 List::List() {}
 
 List::List(const List &copy) :index(copy.index), books(copy.books){}
 
-int List::getindex(){
-    return this->index;
-}
 
 List::~List(){
     while(!books.empty()){
@@ -67,15 +73,4 @@ void List::DeleteElement(int index) {
     this->index--;
 }
 
-
-
-void List::InsertList(List &in) {
-    in.index++;
-    this->books.reserve(this->index + in.index + 1);
-    auto iter = this->books.end();
-    for (int i = 0; i < in.index; i++) {
-        this->books.insert(iter + i, in.books[i]);
-    }
-    this->index += in.index;
-}
 

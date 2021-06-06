@@ -2,6 +2,15 @@
 // Created by Yura on 27.05.2021.
 //
 
+/**
+ * @file controller.cpp
+ * @brief File that performs methods of controller class
+ *
+ * @author Klymenko Y.
+ * @date 29-may-2021
+ * @version 1.0
+ */
+
 #include "controller.h"
 
 List* Controller::getlist() {
@@ -291,13 +300,7 @@ bool functorFalsePages(Book* A, Book* B){
 
     return result;
 }
-void Controller::SortByPages(bool flag) {
-    if (flag) {
-        std::sort(list.getBook().begin(), list.getBook().end(), functorTruePages);
-    } else{
-        std::sort(list.getBook().begin(), list.getBook().end(), functorFalsePages);
-    }
-}
+
 
 vector<Book*> Controller::findMaxPages() {
     vector<Book*> temp;

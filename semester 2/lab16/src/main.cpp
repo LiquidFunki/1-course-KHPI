@@ -20,14 +20,6 @@ int main() {
         unique_ptr<Book> uniquePtr3(new ScienceBook(science1));
         unique_ptr<Book> uniquePtr4(new ScienceBook(science2));
         unique_ptr<Book> uniquePtr5(new ScienceBook(science3));
-//        {
-//            unique_ptr<Book> uniquePtr6(std::move(uniquePtr)); // После выполнения uniquePtr ни на что не указывает
-//            cout << "Demo: " << endl;
-//            uniquePtr6.get()->print();
-//            cout << endl << endl;
-//            uniquePtr = std::move(uniquePtr6);  // После выполнения uniquePtr возврщается прежнее значение, а uniquePtr6
-//            // больше ни на что не указывает
-//        }
 
         list.addItem(&uniquePtr);
         list.addItem(&uniquePtr1);
@@ -38,10 +30,9 @@ int main() {
 
 
 
-        //Исходный список
         cout << "unique_ptr LIST: " << endl;
         for (auto &backpack : list) {
-            backpack->get()->print();  // используем метод get() для конвертации std::unique_ptr в обычный указатель
+            backpack->get()->print();  // convert to standard pointer
             cout << endl;
         }
     }
@@ -55,10 +46,7 @@ int main() {
         shared_ptr<Book> sharedPtr3  (new ScienceBook(science1));
         shared_ptr<Book> sharedPtr4  (new ScienceBook(science2));
         shared_ptr<Book> sharedPtr5  (new ScienceBook(science3));
-        shared_ptr<Book> sharedPtr6  (sharedPtr);   // sharedPtr6 указывает на тот же объект, что и sharedPtr
-        // и в таком случае объект будет уичтожен только тогда,
-        // когда оба этих указателей выйдут за область видимости функции
-
+        shared_ptr<Book> sharedPtr6  (sharedPtr);   // sharedPtr -> sharedPtr6
 
         list.addItem(&sharedPtr);
         list.addItem(&sharedPtr1);
@@ -70,10 +58,10 @@ int main() {
 
 
 
-        //Исходный список
+
         cout << "shared_ptr LIST: " << endl;
         for (auto &backpack : list) {
-            backpack->get()->print();  // используем метод get() для конвертации std::shared_ptr в обычный указатель
+            backpack->get()->print();  // convert to standard pointer
             cout << endl;
         }
 
@@ -90,7 +78,7 @@ int main() {
         shared_ptr<Book> sharedPtr4  (new ScienceBook(science2));
         shared_ptr<Book> sharedPtr5  (new ScienceBook(science3));
 
-        // weak_ptr используется, когда нужен умный указатель, который имеет доступ к ресурсу, но не считается его владельцем.
+        // weak_ptr ins't owner
         weak_ptr<Book> weakPtr = sharedPtr;
         weak_ptr<Book> weakPtr1 = sharedPtr1;
         weak_ptr<Book> weakPtr2 = sharedPtr2;
@@ -110,11 +98,10 @@ int main() {
 
 
 
-        //Исходный список
         cout << "weak_ptr LIST: " << endl;
         cout << endl;
         for (auto &backpack : list) {
-            backpack->lock()->print();  //используем метод lock() для конвертации std::weak_ptr в std::shared_ptr
+            backpack->lock()->print();  //convert weak_pter in shared_ptr
             cout << endl;
         }
     }

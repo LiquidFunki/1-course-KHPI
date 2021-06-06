@@ -1,3 +1,12 @@
+/**
+ * @file book.cpp
+ * @brief File that performs methods of the basic class
+ *
+ * @author Klymenko Y.
+ * @date 29-may-2021
+ * @version 1.0
+ */
+
 #include "book.h"
 
 //Publishing house
@@ -105,6 +114,80 @@ Book* FictionBook::clone() {
     return (Book*)new FictionBook(*this);
 }
 
+ostream & operator<<(ostream &out, FictionBook& book){
+    out << "     ";
+    out << book.get_digital_version();
+    out << "     ";
+    out << book.get_title();
+    out << "     ";
+    out << book.get_pages();
+    out << "     ";
+    out << book.get_pH().getVersion();
+    out << "     ";
+    out << book.get_pH().getName();
+    out << "     ";
+    out << book.get_cover() << endl;
+    out << "     ";
+    out << book.get_direction();
+    out << "     ";
+    out << book.get_genre();
+    return out;
+}
+
+istream & operator>>(istream &in, FictionBook& book){
+    int dg;
+    int pages;
+    string name;
+    int cover;
+    string version;
+    string pb_name;
+    int direction;
+    int genre;
+
+    cout << "Availability of digital version: " << endl;
+    in >> dg;
+    cout << "Count of pages: " << endl;
+    in >> pages;
+    cout << "Name of the book: " << endl;
+    in >> name;
+    cout << "Cover of the book: " << endl;
+    in >> cover;
+    cout << "Version of the book: " << endl;
+    in >> version;
+    cout << "Name of the publishing house: " << endl;
+    in >> pb_name;
+    cout << "Direction of the book: 0 - revival, 1 - modern, 2 - postmodern: " << endl;
+    in >> direction;
+    cout << "Genre of the book: 0 - romance, 1 - detective, 2 - novel, 3 - story: " << endl;
+    in >> genre;
+
+    stringstream buffer;
+    buffer << dg << " " << name << " " << pages << " " << pb_name << " " << version << " " << cover << " " <<  direction << " " << genre;
+    regex reg("^[0-1] [A-Z][a-zA-Z]* [0-9]{1,4} [A-Za-z][a-zA-Z]* [A-Za-z][a-zA-Z]* [0-4] [0-4] [0-4]$");
+
+
+    if(regex_match(buffer.str(), reg)){
+        book.set_digital_version(dg);
+        book.set_title(name);
+        book.set_pages(pages);
+        if(cover == 0) book.set_cover(HARD);
+        else if(cover == 1) book.set_cover(SOFT);
+        PublishingHouse pH(version, pb_name);
+        book.set_pH(&pH);
+        if (direction == 0) book.set_direction(REVIVAL);
+        else if (direction == 1) book.set_direction(MODERN);
+        else if (direction == 2) book.set_direction(POSTMODERN);
+        if (genre == 0) book.set_genre(ROMANCE);
+        else if (genre == 1) book.set_genre(DETECTIVE);
+        else if (genre == 2) book.set_genre(NOVEL);
+        else if (genre == 3) book.set_genre(STORY);
+        return in;
+    } else {
+        in.clear();
+        cout << "ERROR: Invalid data entered, item not added.\n";
+        return in;
+    }
+}
 
 //Second inheritor
 ScienceBook::ScienceBook(): Book(), sphere(CHEMISTRY), certified(false) {}
@@ -181,6 +264,78 @@ char ScienceBook::GetType() {
 
 Book* ScienceBook::clone() {
     return (Book*)new ScienceBook(*this);
+}
+
+ostream & operator<<(ostream &out, ScienceBook& book){
+    out << "     ";
+    out << book.get_digital_version();
+    out << "     ";
+    out << book.get_title();
+    out << "     ";
+    out << book.get_pages();
+    out << "     ";
+    out << book.get_pH().getVersion();
+    out << "     ";
+    out << book.get_pH().getName();
+    out << "     ";
+    out << book.get_cover() << endl;
+    out << "     ";
+    out << book.get_sphere();
+    out << "     ";
+    out << book.get_certified();
+    return out;
+}
+
+istream & operator>>(istream &in, ScienceBook& book){
+    int dg;
+    int pages;
+    string name;
+    int cover;
+    string version;
+    string pb_name;
+    int sphere;
+    int certified;
+
+    cout << "Availability of digital version: " << endl;
+    in >> dg;
+    cout << "Count of pages: " << endl;
+    in >> pages;
+    cout << "Name of the book: " << endl;
+    in >> name;
+    cout << "Cover of the book: " << endl;
+    in >> cover;
+    cout << "Version of the book: " << endl;
+    in >> version;
+    cout << "Name of the publishing house: " << endl;
+    in >> pb_name;
+    cout << "Sphere of the book: 0 - chemistry, 1 - biology, 2 - physics, 3 - information technologies: " << endl;
+    in >> sphere;
+    cout << "Is this book certified: 0 - no, 1 - yes: " << endl;
+    in >> certified;
+
+    stringstream buffer;
+    buffer << dg << " " << name << " " << pages << " " << pb_name << " " << version << " " << cover << " " <<  sphere << " " << certified;
+    regex reg("^[0-1] [A-Z][a-zA-Z]* [0-9]{1,4} [A-Za-z][a-zA-Z]* [A-Za-z][a-zA-Z]* [0-4] [0-4] [0-4]$");
+
+    if(regex_match(buffer.str(), reg)){
+        book.set_digital_version(dg);
+        book.set_title(name);
+        book.set_pages(pages);
+        if(cover == 0) book.set_cover(HARD);
+        else if(cover == 1) book.set_cover(SOFT);
+        PublishingHouse pH(version, pb_name);
+        book.set_pH(&pH);
+        if (sphere == 0) book.set_sphere(CHEMISTRY);
+        else if (sphere == 1) book.set_sphere(BIOLOGY);
+        else if (sphere == 2) book.set_sphere(PHYSICS);
+        else if (sphere == 3) book.set_sphere(IT);
+        book.set_certified(certified);
+        return in;
+    } else {
+        in.clear();
+        cout << "ERROR: Invalid data entered, item not added.\n";
+        return in;
+    }
 }
 
 bool operator==(const FictionBook& A, const FictionBook& B){
