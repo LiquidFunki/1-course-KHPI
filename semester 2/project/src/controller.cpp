@@ -749,6 +749,10 @@ bool functorFalseCover(Book* A, Book* B){//up to down
 }
 
 void Controller::SortByField(string field) {
+    /**
+     * 1-й получение направления сортировки
+     * 2-й получение поля сортировки
+     * 3-й сортировка через ф-цию sort с учетами направления и критерия сортировки*/
     vector<Book*> temp;
     auto temp1 = list.getBook();
     int n;

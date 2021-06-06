@@ -6,9 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f4e356-1f99-49cc-8a77-daa485404d87" name="Default Changelist" comment="reports">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="84f4e356-1f99-49cc-8a77-daa485404d87" name="Default Changelist" comment="reports" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +57,7 @@
       <workItem from="1622905996344" duration="539000" />
       <workItem from="1622906905662" duration="19000" />
       <workItem from="1622967267225" duration="78000" />
+      <workItem from="1622981977991" duration="630000" />
     </task>
     <task id="LOCAL-00001" summary="rework">
       <created>1616780417491</created>
@@ -172,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622906916839</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added project report + assets">
+      <created>1622982002013</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1622982002013</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +210,7 @@
     <MESSAGE value="added lab14_report" />
     <MESSAGE value="added assets for last lab reports" />
     <MESSAGE value="full reports for last labs" />
-    <option name="LAST_COMMIT_MESSAGE" value="full reports for last labs" />
+    <MESSAGE value="added project report + assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="added project report + assets" />
   </component>
 </project>
